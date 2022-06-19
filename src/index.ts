@@ -20,7 +20,7 @@ class ImageGenAPI {
 	 * @param {Object} options
 	 * @param {String} options.apiKey - your api key
 	 * @param {String} [options.userAgent] - a user agent to use for requests
-	 * @param {String} [options.baseURL="https://imagen.yiff.rest/api"] - the base url for requests
+	 * @param {String} [options.baseURL="https://imgen.yiff.rest/api"] - the base url for requests
 	 */
 	constructor(options: {
 		apiKey: string;
@@ -41,7 +41,7 @@ class ImageGenAPI {
 				writable:     false
 			},
 			baseURL: {
-				value:        options.baseURL || "https://imagen.yiff.rest/api",
+				value:        options.baseURL || "https://imgen.yiff.rest/api",
 				enumerable:   false,
 				configurable: false,
 				writable:     false

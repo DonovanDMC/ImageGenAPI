@@ -1,7 +1,7 @@
 {
 	"name": "imgen",
-	"version": "1.0.0",
-	"description": "An api wrapper for imagen.yiff.rest and similar services.",
+	"version": "1.0.1",
+	"description": "An api wrapper for imgen.yiff.rest and similar services.",
 	"main": "build/src/index.js",
 	"types": "build/src/index.d.ts",
 	"dependencies": {
